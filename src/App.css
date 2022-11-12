@@ -1,0 +1,67 @@
+.App {
+  margin-top: 5%;
+  margin-left: 25%;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 1px solid black;
+  width: 50%;
+  background:grey;
+  box-shadow: rgba(0, 0, 0, 0.35) 10px 15px 15px;
+  }
+  
+  .label{
+    font-weight: 50px bold;
+  display: block;
+  font-size: medium;
+  font-weight: bolder;
+  color: black;
+  padding: 5px;
+  }
+  
+  .input{
+    font-weight: 5px bold;
+  font-size: 15px;
+  padding: 5px;
+  margin: 2px;
+  
+  }
+  .btn{
+  color: white;
+  background-color: rgb(20, 20, 233);
+  border-radius: 5px;
+  font-size: larger;
+  display: block;
+  padding: 5px;
+  margin: 10px auto;
+  }
+  h2{
+    background: radial-gradient(circle at center, 
+    cyan, rgb(77, 136, 212), blue),100% ;
+    font-size: 50px;
+    border: 1px solid black;
+    box-sizing:border-box;
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+    border-radius: 35px;
+  }
+  .messages{
+  justify-content: center;
+  }
+  
+  .error{
+  color: red;
+  height: 50px;
+  padding: 5px;
+  font-size: 10px;
+  }
+  
+  .success{
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  color: green;
+  height: 10px;
+  font-size: x-small;
+
+  }
